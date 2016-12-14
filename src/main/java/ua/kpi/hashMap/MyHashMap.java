@@ -41,7 +41,6 @@ public class MyHashMap<K, V> implements Map<K, V> {
         }
     }
 
-
     @Override
     public int size() {
         return size;
@@ -190,7 +189,6 @@ public class MyHashMap<K, V> implements Map<K, V> {
                     size--;
                     return current.value;
                 }
-
                 previous = current;
                 current = current.next;
             }
